@@ -1,16 +1,7 @@
 name: Vida Practica - publicador integrado
 
 on:
-  # Horarios Argentina (UTC-3). GitHub Actions interpreta cron en UTC.
-  schedule:
-    - cron: "7 12 * * *"   # Story 09:07 Argentina
-    - cron: "37 14 * * *"  # Story 11:37 Argentina
-    - cron: "37 15 * * *"  # Reel 12:37 Argentina
-    - cron: "37 17 * * *"  # Story 14:37 Argentina
-    - cron: "37 20 * * *"  # Story 17:37 Argentina
-    - cron: "7 22 * * *"   # Carrusel 19:07 Argentina
-    - cron: "7 23 * * *"   # Story 20:07 Argentina
-    - cron: "37 23 * * *"  # Reel 20:37 Argentina
+  # Programacion diaria se habilitara al completar la migracion y validar una prueba.
   workflow_dispatch:
     inputs:
       slot:
