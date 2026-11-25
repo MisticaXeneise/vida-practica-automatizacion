@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "last_index": {
+    "reel": 3,
+    "story": 1,
+    "carousel": 0
+  },
+  "reservations": {
+    "2026-11-19:reel_1230": {
+      "key": "2026-11-19:reel_1230",
+      "date": "2026-11-19",
+      "slot": "reel_1230",
+      "kind": "reel",
+      "asset_index": 2,
+      "asset": "01_Videos_profesionales/V03_cinco_ingredientes_cero_excusas_v4_1080x1920.mp4",
+      "status": "published",
+      "media_id": "18417046210087072"
+    },
+    "2026-11-19:story_1730": {
+      "key": "2026-11-19:story_1730",
+      "date": "2026-11-19",
+      "slot": "story_1730",
+      "kind": "story",
+      "asset_index": 0,
+      "asset": "04_Carruseles_e_historias/H01_que_cocino_hoy_1080x1920.jpg",
+      "status": "published",
+      "media_id": "18232852861334656"
+    },
+    "2026-11-19:carousel_1900": {
+      "key": "2026-11-19:carousel_1900",
+      "date": "2026-11-19",
+      "slot": "carousel_1900",
+      "kind": "carousel",
+      "asset_index": 0,
+      "asset": [
+        "04_Carruseles_e_historias/C1_que_cocino_hoy_01.jpg",
+        "04_Carruseles_e_historias/C1_que_cocino_hoy_02.jpg",
+        "04_Carruseles_e_historias/C1_que_cocino_hoy_03.jpg",
+        "04_Carruseles_e_historias/C1_que_cocino_hoy_04.jpg",
+        "04_Carruseles_e_historias/C1_que_cocino_hoy_05.jpg"
+      ],
+      "status": "published",
+      "media_id": "17919893412264591"
+    },
+    "2026-11-20:story_2000": {
+      "key": "2026-11-20:story_2000",
+      "date": "2026-11-20",
+      "slot": "story_2000",
+      "kind": "story",
+      "asset_index": 1,
+      "asset": "04_Carruseles_e_historias/H02_menu_de_la_semana_1080x1920.jpg",
+      "status": "published",
+      "media_id": "18154272127537357"
+    },
+    "2026-11-20:reel_2030": {
+      "key": "2026-11-20:reel_2030",
+      "date": "2026-11-20",
+      "slot": "reel_2030",
+      "kind": "reel",
+      "asset_index": 3,
+      "asset": "01_Videos_profesionales/V04_pizza_sin_masa_v4_1080x1920.mp4",
+      "status": "published",
+      "media_id": "18120429433798160"
+    }
+  },
+  "publications": [
+    {
+      "key": "2026-11-19:reel_1230",
+      "kind": "reel",
+      "asset": "01_Videos_profesionales/V03_cinco_ingredientes_cero_excusas_v4_1080x1920.mp4",
+      "media_id": "18417046210087072"
+    },
+    {
+      "key": "2026-11-19:story_1730",
+      "kind": "story",
+      "asset": "04_Carruseles_e_historias/H01_que_cocino_hoy_1080x1920.jpg",
+      "media_id": "18232852861334656"
+    },
+    {
+      "key": "2026-11-19:carousel_1900",
+      "kind": "carousel",
+      "asset": [
+        "04_Carruseles_e_historias/C1_que_cocino_hoy_01.jpg",
+        "04_Carruseles_e_historias/C1_que_cocino_hoy_02.jpg",
+        "04_Carruseles_e_historias/C1_que_cocino_hoy_03.jpg",
+        "04_Carruseles_e_historias/C1_que_cocino_hoy_04.jpg",
+        "04_Carruseles_e_historias/C1_que_cocino_hoy_05.jpg"
+      ],
+      "media_id": "17919893412264591"
+    },
+    {
+      "key": "2026-11-20:story_2000",
+      "kind": "story",
+      "asset": "04_Carruseles_e_historias/H02_menu_de_la_semana_1080x1920.jpg",
+      "media_id": "18154272127537357"
+    },
+    {
+      "key": "2026-11-20:reel_2030",
+      "kind": "reel",
+      "asset": "01_Videos_profesionales/V04_pizza_sin_masa_v4_1080x1920.mp4",
+      "media_id": "18120429433798160"
+    }
+  ]
+}
