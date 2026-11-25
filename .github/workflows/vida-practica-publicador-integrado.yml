@@ -1,0 +1,94 @@
+name: Vida Practica - publicador integrado
+
+on:
+  # Horarios Argentina (UTC-3). GitHub Actions interpreta cron en UTC.
+  schedule:
+    - cron: "7 12 * * *"   # Story 09:07 Argentina
+    - cron: "37 14 * * *"  # Story 11:37 Argentina
+    - cron: "37 15 * * *"  # Reel 12:37 Argentina
+    - cron: "37 17 * * *"  # Story 14:37 Argentina
+    - cron: "37 20 * * *"  # Story 17:37 Argentina
+    - cron: "7 22 * * *"   # Carrusel 19:07 Argentina
+    - cron: "7 23 * * *"   # Story 20:07 Argentina
+    - cron: "37 23 * * *"  # Reel 20:37 Argentina
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "Horario que se desea probar"
+        required: true
+        type: choice
+        options: [reel_1230, reel_2030, story_0900, story_1130, story_1430, story_1730, story_2000, carousel_1900]
+        default: story_0900
+      modo:
+        description: "Dry-run no publica; publicar ejecuta el circuito real"
+        required: true
+        type: choice
+        options: [dry_run, publicar]
+        default: dry_run
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vida-practica-state-store
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    name: Validar o publicar un slot de Vida Practica
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_REPOSITORY: ${{ github.repository }}
+      CLOUDINARY_CLOUD_NAME: ${{ secrets.VIDA_PRACTICA_CLOUDINARY_CLOUD_NAME }}
+      CLOUDINARY_API_KEY: ${{ secrets.VIDA_PRACTICA_CLOUDINARY_API_KEY }}
+      CLOUDINARY_API_SECRET: ${{ secrets.VIDA_PRACTICA_CLOUDINARY_API_SECRET }}
+      INSTAGRAM_TOKEN: ${{ secrets.VIDA_PRACTICA_INSTAGRAM_TOKEN }}
+      META_GRAPH_VERSION: "v27.0"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar dependencias
+        run: python -m pip install --upgrade "gdown==6.1.0" "requests==2.32.5" "Pillow==11.3.0"
+      - name: Ejecutar publicador integrado
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE_CRON: ${{ github.event.schedule }}
+          MANUAL_SLOT: ${{ inputs.slot }}
+          MANUAL_MODE: ${{ inputs.modo }}
+        run: |
+          if [ "$EVENT_NAME" = "schedule" ]; then
+            case "$SCHEDULE_CRON" in
+              "7 12 * * *") SLOT="story_0900" ;;
+              "37 14 * * *") SLOT="story_1130" ;;
+              "37 15 * * *") SLOT="reel_1230" ;;
+              "37 17 * * *") SLOT="story_1430" ;;
+              "37 20 * * *") SLOT="story_1730" ;;
+              "7 22 * * *") SLOT="carousel_1900" ;;
+              "7 23 * * *") SLOT="story_2000" ;;
+              "37 23 * * *") SLOT="reel_2030" ;;
+              *) echo "Horario programado desconocido: $SCHEDULE_CRON"; exit 1 ;;
+            esac
+            MODO="publicar"
+          else
+            SLOT="$MANUAL_SLOT"
+            MODO="$MANUAL_MODE"
+          fi
+          args=(--slot "$SLOT")
+          if [ "$MODO" = "dry_run" ]; then args+=(--dry-run); fi
+          echo "Evento: $EVENT_NAME | Slot: $SLOT | Modo: $MODO"
+          python scripts/vida_practica_publisher.py "${args[@]}"
+      - name: Resumen
+        if: always()
+        run: |
+          {
+            echo "## Vida Practica — publicador integrado"
+            echo ""
+            echo "- Evento: ${{ github.event_name }}"
+            echo "- Horario programado (si aplica): ${{ github.event.schedule }}"
+            echo "- Historial persistente: rama vida-practica-state"
+            echo "- Concurrencia: serializada para proteger las reservas."
+          } >> "$GITHUB_STEP_SUMMARY"
