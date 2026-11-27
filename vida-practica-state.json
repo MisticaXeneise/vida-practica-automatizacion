@@ -3,7 +3,7 @@
   "last_index": {
     "reel": 4,
     "story": 2,
-    "carousel": 0
+    "carousel": 1
   },
   "reservations": {
     "2026-11-19:reel_1230": {
@@ -81,6 +81,22 @@
       "asset": "04_Carruseles_e_historias/H03_encuesta_1080x1920.jpg",
       "status": "published",
       "media_id": "18193409254363058"
+    },
+    "2026-11-27:carousel_1900": {
+      "key": "2026-11-27:carousel_1900",
+      "date": "2026-11-27",
+      "slot": "carousel_1900",
+      "kind": "carousel",
+      "asset_index": 1,
+      "asset": [
+        "04_Carruseles_e_historias/C2_como_funciona_4_pasos_01.jpg",
+        "04_Carruseles_e_historias/C2_como_funciona_4_pasos_02.jpg",
+        "04_Carruseles_e_historias/C2_como_funciona_4_pasos_03.jpg",
+        "04_Carruseles_e_historias/C2_como_funciona_4_pasos_04.jpg",
+        "04_Carruseles_e_historias/C2_como_funciona_4_pasos_05.jpg"
+      ],
+      "status": "reserved",
+      "media_id": null
     }
   },
   "publications": [
