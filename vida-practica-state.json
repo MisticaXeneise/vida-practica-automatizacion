@@ -79,8 +79,8 @@
       "kind": "story",
       "asset_index": 2,
       "asset": "04_Carruseles_e_historias/H03_encuesta_1080x1920.jpg",
-      "status": "reserved",
-      "media_id": null
+      "status": "published",
+      "media_id": "18193409254363058"
     }
   },
   "publications": [
@@ -125,6 +125,12 @@
       "kind": "reel",
       "asset": "01_Videos_profesionales/V05_la_tortilla_que_rinde_v4_1080x1920.mp4",
       "media_id": "18129323740683566"
+    },
+    {
+      "key": "2026-11-27:story_0900",
+      "kind": "story",
+      "asset": "04_Carruseles_e_historias/H03_encuesta_1080x1920.jpg",
+      "media_id": "18193409254363058"
     }
   ]
 }
