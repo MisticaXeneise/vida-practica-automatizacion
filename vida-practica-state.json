@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "last_index": {
-    "reel": 3,
+    "reel": 4,
     "story": 1,
     "carousel": 0
   },
@@ -61,6 +61,16 @@
       "asset": "01_Videos_profesionales/V04_pizza_sin_masa_v4_1080x1920.mp4",
       "status": "published",
       "media_id": "18120429433798160"
+    },
+    "2026-11-27:reel_1230": {
+      "key": "2026-11-27:reel_1230",
+      "date": "2026-11-27",
+      "slot": "reel_1230",
+      "kind": "reel",
+      "asset_index": 4,
+      "asset": "01_Videos_profesionales/V05_la_tortilla_que_rinde_v4_1080x1920.mp4",
+      "status": "reserved",
+      "media_id": null
     }
   },
   "publications": [
