@@ -69,8 +69,8 @@
       "kind": "reel",
       "asset_index": 4,
       "asset": "01_Videos_profesionales/V05_la_tortilla_que_rinde_v4_1080x1920.mp4",
-      "status": "reserved",
-      "media_id": null
+      "status": "published",
+      "media_id": "18129323740683566"
     }
   },
   "publications": [
@@ -109,6 +109,12 @@
       "kind": "reel",
       "asset": "01_Videos_profesionales/V04_pizza_sin_masa_v4_1080x1920.mp4",
       "media_id": "18120429433798160"
+    },
+    {
+      "key": "2026-11-27:reel_1230",
+      "kind": "reel",
+      "asset": "01_Videos_profesionales/V05_la_tortilla_que_rinde_v4_1080x1920.mp4",
+      "media_id": "18129323740683566"
     }
   ]
 }
