@@ -1,7 +1,15 @@
 name: Vida Practica - publicador integrado
 
 on:
-  # Programacion diaria se habilitara al completar la migracion y validar una prueba.
+  schedule:
+    - cron: "7 12 * * *"   # 09:00 Argentina — Story
+    - cron: "37 14 * * *"  # 11:30 Argentina — Story
+    - cron: "37 15 * * *"  # 12:30 Argentina — Reel
+    - cron: "37 17 * * *"  # 14:30 Argentina — Story
+    - cron: "37 20 * * *"  # 17:30 Argentina — Story
+    - cron: "7 22 * * *"   # 19:00 Argentina — Carrusel
+    - cron: "7 23 * * *"   # 20:00 Argentina — Story
+    - cron: "37 23 * * *"  # 20:30 Argentina — Reel
   workflow_dispatch:
     inputs:
       slot:
