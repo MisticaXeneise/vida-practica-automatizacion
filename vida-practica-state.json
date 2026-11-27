@@ -95,8 +95,8 @@
         "04_Carruseles_e_historias/C2_como_funciona_4_pasos_04.jpg",
         "04_Carruseles_e_historias/C2_como_funciona_4_pasos_05.jpg"
       ],
-      "status": "reserved",
-      "media_id": null
+      "status": "published",
+      "media_id": "17990774003878515"
     }
   },
   "publications": [
@@ -147,6 +147,18 @@
       "kind": "story",
       "asset": "04_Carruseles_e_historias/H03_encuesta_1080x1920.jpg",
       "media_id": "18193409254363058"
+    },
+    {
+      "key": "2026-11-27:carousel_1900",
+      "kind": "carousel",
+      "asset": [
+        "04_Carruseles_e_historias/C2_como_funciona_4_pasos_01.jpg",
+        "04_Carruseles_e_historias/C2_como_funciona_4_pasos_02.jpg",
+        "04_Carruseles_e_historias/C2_como_funciona_4_pasos_03.jpg",
+        "04_Carruseles_e_historias/C2_como_funciona_4_pasos_04.jpg",
+        "04_Carruseles_e_historias/C2_como_funciona_4_pasos_05.jpg"
+      ],
+      "media_id": "17990774003878515"
     }
   ]
 }
