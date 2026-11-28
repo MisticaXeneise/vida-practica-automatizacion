@@ -3,7 +3,7 @@
   "last_index": {
     "reel": 4,
     "story": 4,
-    "carousel": 1
+    "carousel": 2
   },
   "reservations": {
     "2026-11-19:reel_1230": {
@@ -117,6 +117,22 @@
       "asset": "04_Carruseles_e_historias/H06_para_tu_casa_1080x1920.jpg",
       "status": "published",
       "media_id": "18119455253018225"
+    },
+    "2026-11-28:carousel_1900": {
+      "key": "2026-11-28:carousel_1900",
+      "date": "2026-11-28",
+      "slot": "carousel_1900",
+      "kind": "carousel",
+      "asset_index": 2,
+      "asset": [
+        "04_Carruseles_e_historias/C4_compra_solo_lo_que_falta_01.jpg",
+        "04_Carruseles_e_historias/C4_compra_solo_lo_que_falta_02.jpg",
+        "04_Carruseles_e_historias/C4_compra_solo_lo_que_falta_03.jpg",
+        "04_Carruseles_e_historias/C4_compra_solo_lo_que_falta_04.jpg",
+        "04_Carruseles_e_historias/C4_compra_solo_lo_que_falta_05.jpg"
+      ],
+      "status": "reserved",
+      "media_id": null
     }
   },
   "publications": [
