@@ -161,8 +161,8 @@
       "kind": "story",
       "asset_index": 6,
       "asset": "04_Carruseles_e_historias/ig_historia_2_semana_1080x1920.jpg",
-      "status": "reserved",
-      "media_id": null
+      "status": "published",
+      "media_id": "18222944125357090"
     }
   },
   "publications": [
@@ -261,6 +261,12 @@
       "kind": "reel",
       "asset": "01_Videos_profesionales/V06_el_tomate_que_ibas_a_botar_v4_1080x1920.mp4",
       "media_id": "18255688399313158"
+    },
+    {
+      "key": "2026-11-28:story_0900",
+      "kind": "story",
+      "asset": "04_Carruseles_e_historias/ig_historia_2_semana_1080x1920.jpg",
+      "media_id": "18222944125357090"
     }
   ]
 }
