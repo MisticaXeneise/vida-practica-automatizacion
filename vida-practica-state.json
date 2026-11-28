@@ -2,7 +2,7 @@
   "schema_version": 1,
   "last_index": {
     "reel": 5,
-    "story": 6,
+    "story": 7,
     "carousel": 2
   },
   "reservations": {
@@ -163,6 +163,16 @@
       "asset": "04_Carruseles_e_historias/ig_historia_2_semana_1080x1920.jpg",
       "status": "published",
       "media_id": "18222944125357090"
+    },
+    "2026-11-28:story_1130": {
+      "key": "2026-11-28:story_1130",
+      "date": "2026-11-28",
+      "slot": "story_1130",
+      "kind": "story",
+      "asset_index": 7,
+      "asset": "04_Carruseles_e_historias/ig_historia_4_lista_1080x1920.jpg",
+      "status": "reserved",
+      "media_id": null
     }
   },
   "publications": [
