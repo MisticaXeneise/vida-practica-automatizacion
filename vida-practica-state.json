@@ -2,7 +2,7 @@
   "schema_version": 1,
   "last_index": {
     "reel": 5,
-    "story": 5,
+    "story": 6,
     "carousel": 2
   },
   "reservations": {
@@ -153,6 +153,16 @@
       "asset": "01_Videos_profesionales/V06_el_tomate_que_ibas_a_botar_v4_1080x1920.mp4",
       "status": "published",
       "media_id": "18255688399313158"
+    },
+    "2026-11-28:story_0900": {
+      "key": "2026-11-28:story_0900",
+      "date": "2026-11-28",
+      "slot": "story_0900",
+      "kind": "story",
+      "asset_index": 6,
+      "asset": "04_Carruseles_e_historias/ig_historia_2_semana_1080x1920.jpg",
+      "status": "reserved",
+      "media_id": null
     }
   },
   "publications": [
