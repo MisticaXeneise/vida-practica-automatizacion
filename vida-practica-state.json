@@ -141,8 +141,8 @@
       "kind": "story",
       "asset_index": 5,
       "asset": "04_Carruseles_e_historias/ig_historia_1_problema_1080x1920.jpg",
-      "status": "reserved",
-      "media_id": null
+      "status": "published",
+      "media_id": "18021015170745585"
     }
   },
   "publications": [
@@ -229,6 +229,12 @@
         "04_Carruseles_e_historias/C4_compra_solo_lo_que_falta_05.jpg"
       ],
       "media_id": "18084319808732864"
+    },
+    {
+      "key": "2026-11-28:story_2000",
+      "kind": "story",
+      "asset": "04_Carruseles_e_historias/ig_historia_1_problema_1080x1920.jpg",
+      "media_id": "18021015170745585"
     }
   ]
 }
