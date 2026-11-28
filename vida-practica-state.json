@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "last_index": {
-    "reel": 4,
+    "reel": 5,
     "story": 5,
     "carousel": 2
   },
@@ -143,6 +143,16 @@
       "asset": "04_Carruseles_e_historias/ig_historia_1_problema_1080x1920.jpg",
       "status": "published",
       "media_id": "18021015170745585"
+    },
+    "2026-11-28:reel_2030": {
+      "key": "2026-11-28:reel_2030",
+      "date": "2026-11-28",
+      "slot": "reel_2030",
+      "kind": "reel",
+      "asset_index": 5,
+      "asset": "01_Videos_profesionales/V06_el_tomate_que_ibas_a_botar_v4_1080x1920.mp4",
+      "status": "reserved",
+      "media_id": null
     }
   },
   "publications": [
