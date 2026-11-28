@@ -2,7 +2,7 @@
   "schema_version": 1,
   "last_index": {
     "reel": 4,
-    "story": 3,
+    "story": 4,
     "carousel": 1
   },
   "reservations": {
@@ -107,6 +107,16 @@
       "asset": "04_Carruseles_e_historias/H05_lista_automatica_1080x1920.jpg",
       "status": "published",
       "media_id": "17932742997182503"
+    },
+    "2026-11-27:story_1730": {
+      "key": "2026-11-27:story_1730",
+      "date": "2026-11-27",
+      "slot": "story_1730",
+      "kind": "story",
+      "asset_index": 4,
+      "asset": "04_Carruseles_e_historias/H06_para_tu_casa_1080x1920.jpg",
+      "status": "reserved",
+      "media_id": null
     }
   },
   "publications": [
