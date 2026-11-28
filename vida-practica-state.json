@@ -171,8 +171,8 @@
       "kind": "story",
       "asset_index": 7,
       "asset": "04_Carruseles_e_historias/ig_historia_4_lista_1080x1920.jpg",
-      "status": "reserved",
-      "media_id": null
+      "status": "published",
+      "media_id": "18228833473338003"
     }
   },
   "publications": [
@@ -277,6 +277,12 @@
       "kind": "story",
       "asset": "04_Carruseles_e_historias/ig_historia_2_semana_1080x1920.jpg",
       "media_id": "18222944125357090"
+    },
+    {
+      "key": "2026-11-28:story_1130",
+      "kind": "story",
+      "asset": "04_Carruseles_e_historias/ig_historia_4_lista_1080x1920.jpg",
+      "media_id": "18228833473338003"
     }
   ]
 }
