@@ -115,8 +115,8 @@
       "kind": "story",
       "asset_index": 4,
       "asset": "04_Carruseles_e_historias/H06_para_tu_casa_1080x1920.jpg",
-      "status": "reserved",
-      "media_id": null
+      "status": "published",
+      "media_id": "18119455253018225"
     }
   },
   "publications": [
@@ -185,6 +185,12 @@
       "kind": "story",
       "asset": "04_Carruseles_e_historias/H05_lista_automatica_1080x1920.jpg",
       "media_id": "17932742997182503"
+    },
+    {
+      "key": "2026-11-27:story_1730",
+      "kind": "story",
+      "asset": "04_Carruseles_e_historias/H06_para_tu_casa_1080x1920.jpg",
+      "media_id": "18119455253018225"
     }
   ]
 }
