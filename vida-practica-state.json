@@ -2,7 +2,7 @@
   "schema_version": 1,
   "last_index": {
     "reel": 4,
-    "story": 4,
+    "story": 5,
     "carousel": 2
   },
   "reservations": {
@@ -133,6 +133,16 @@
       ],
       "status": "published",
       "media_id": "18084319808732864"
+    },
+    "2026-11-28:story_2000": {
+      "key": "2026-11-28:story_2000",
+      "date": "2026-11-28",
+      "slot": "story_2000",
+      "kind": "story",
+      "asset_index": 5,
+      "asset": "04_Carruseles_e_historias/ig_historia_1_problema_1080x1920.jpg",
+      "status": "reserved",
+      "media_id": null
     }
   },
   "publications": [
