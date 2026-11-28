@@ -131,8 +131,8 @@
         "04_Carruseles_e_historias/C4_compra_solo_lo_que_falta_04.jpg",
         "04_Carruseles_e_historias/C4_compra_solo_lo_que_falta_05.jpg"
       ],
-      "status": "reserved",
-      "media_id": null
+      "status": "published",
+      "media_id": "18084319808732864"
     }
   },
   "publications": [
@@ -207,6 +207,18 @@
       "kind": "story",
       "asset": "04_Carruseles_e_historias/H06_para_tu_casa_1080x1920.jpg",
       "media_id": "18119455253018225"
+    },
+    {
+      "key": "2026-11-28:carousel_1900",
+      "kind": "carousel",
+      "asset": [
+        "04_Carruseles_e_historias/C4_compra_solo_lo_que_falta_01.jpg",
+        "04_Carruseles_e_historias/C4_compra_solo_lo_que_falta_02.jpg",
+        "04_Carruseles_e_historias/C4_compra_solo_lo_que_falta_03.jpg",
+        "04_Carruseles_e_historias/C4_compra_solo_lo_que_falta_04.jpg",
+        "04_Carruseles_e_historias/C4_compra_solo_lo_que_falta_05.jpg"
+      ],
+      "media_id": "18084319808732864"
     }
   ]
 }
