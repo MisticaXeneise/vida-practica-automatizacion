@@ -2,7 +2,7 @@
   "schema_version": 1,
   "last_index": {
     "reel": 4,
-    "story": 2,
+    "story": 3,
     "carousel": 1
   },
   "reservations": {
@@ -97,6 +97,16 @@
       ],
       "status": "published",
       "media_id": "17990774003878515"
+    },
+    "2026-11-27:story_1430": {
+      "key": "2026-11-27:story_1430",
+      "date": "2026-11-27",
+      "slot": "story_1430",
+      "kind": "story",
+      "asset_index": 3,
+      "asset": "04_Carruseles_e_historias/H05_lista_automatica_1080x1920.jpg",
+      "status": "reserved",
+      "media_id": null
     }
   },
   "publications": [
